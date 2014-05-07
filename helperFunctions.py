@@ -1,9 +1,8 @@
 from math import sqrt
 
-#Sieve of Eratosthanes - returns a list of primes in range [startValue,endValue]
+#Sieve of Eratosthanes - returns a list of primes in range [0,n]
 #Efficiency :O( N log logN )
 def SOE(n):
-    "Return all primes <= n."
     np1 = n + 1
     s = list(range(np1))
     s[1] = 0
