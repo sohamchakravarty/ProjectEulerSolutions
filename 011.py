@@ -22,7 +22,7 @@ L.append("01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48")
  
 M = [i.split() for i in L]
 M = [[int(j) for j in i] for i in M]
- 
+
 # there are 20 rows, each containing 20 integers
 max_prod = 0
 a = []
