@@ -1,5 +1,3 @@
-from time import time
-
 def Fib(endValue):
     a,b = 1,2
     yield b
@@ -9,6 +7,4 @@ def Fib(endValue):
         endValue-=1
 
 if __name__=='__main__':
-    start = time()
     print sum(Fib(4000000))
-    print time()-start
