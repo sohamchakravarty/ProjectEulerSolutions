@@ -5,3 +5,7 @@ ProjectEuler is a forum where one has the option to satiate his/her urge for sol
 
 All my solutions to various ProjectEuler problems resides in this folder only.
 The description of each file says the name of the problem along with my solution's execution time.
+
+Header File
+-----------
+helperFunctions.py
