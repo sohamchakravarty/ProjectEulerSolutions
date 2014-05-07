@@ -18,6 +18,5 @@ def findSmallestMultiple(startValue,endValue):
         else:
             return num
             
-
 print findSmallestMultiple(1,20)
 
